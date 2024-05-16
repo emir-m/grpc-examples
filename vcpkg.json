@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "grpc-demo",
+  "version-string": "0.1",
+  "dependencies": [ "grpc", "protobuf"],
+  "vcpkg-configuration": {
+    "default-registry": {
+      "kind": "builtin",
+      "baseline": "98e94c27cb1727746120c5ef9a205d60824279a6"
+    }
+  }
+}
